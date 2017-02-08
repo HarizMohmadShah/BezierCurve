@@ -1,0 +1,142 @@
+solid test
+  facet
+    outer loop
+      vertex 0.00000 0.00000 0.00000
+      vertex 188.57144 174.28568 0.00000
+      vertex 188.57144 174.28568 0.00000
+    endloop
+  end facet
+  facet
+    outer loop
+      vertex 0.00000 0.00000 0.00000
+      vertex 188.57144 174.28568 0.00000
+      vertex 0.00000 0.00000 0.00000
+    endloop
+  end facet
+  facet
+    outer loop
+      vertex 0.00000 0.00000 0.00000
+      vertex 188.57144 174.28568 0.00000
+      vertex 188.57144 -0.00001 -174.28568
+    endloop
+  end facet
+  facet
+    outer loop
+      vertex 0.00000 0.00000 0.00000
+      vertex 188.57144 -0.00001 -174.28568
+      vertex 0.00000 -0.00000 -0.00000
+    endloop
+  end facet
+  facet
+    outer loop
+      vertex 0.00000 -0.00000 -0.00000
+      vertex 188.57144 -0.00001 -174.28568
+      vertex 188.57144 -174.28568 0.00002
+    endloop
+  end facet
+  facet
+    outer loop
+      vertex 0.00000 -0.00000 -0.00000
+      vertex 188.57144 -174.28568 0.00002
+      vertex 0.00000 0.00000 0.00000
+    endloop
+  end facet
+  facet
+    outer loop
+      vertex 0.00000 0.00000 0.00000
+      vertex 188.57144 -174.28568 0.00002
+      vertex 188.57144 0.00000 174.28568
+    endloop
+  end facet
+  facet
+    outer loop
+      vertex 0.00000 0.00000 0.00000
+      vertex 188.57144 0.00000 174.28568
+      vertex 0.00000 0.00000 0.00000
+    endloop
+  end facet
+  facet
+    outer loop
+      vertex 0.00000 0.00000 0.00000
+      vertex 188.57144 0.00000 174.28568
+      vertex 188.57144 174.28568 -0.00003
+    endloop
+  end facet
+  facet
+    outer loop
+      vertex 0.00000 0.00000 0.00000
+      vertex 188.57144 174.28568 -0.00003
+      vertex 0.00000 0.00000 0.00000
+    endloop
+  end facet
+  facet
+    outer loop
+      vertex 188.57144 174.28568 0.00000
+      vertex 188.57144 0.00000 0.00000
+      vertex 188.57144 -0.00000 -0.00000
+    endloop
+  end facet
+  facet
+    outer loop
+      vertex 188.57144 174.28568 0.00000
+      vertex 188.57144 -0.00000 -0.00000
+      vertex 188.57144 -0.00006 -174.28568
+    endloop
+  end facet
+  facet
+    outer loop
+      vertex 188.57144 -0.00006 -174.28568
+      vertex 188.57144 -0.00000 -0.00000
+      vertex 188.57144 0.00000 0.00000
+    endloop
+  end facet
+  facet
+    outer loop
+      vertex 188.57144 -0.00006 -174.28568
+      vertex 188.57144 0.00000 0.00000
+      vertex 188.57144 -174.28568 0.00000
+    endloop
+  end facet
+  facet
+    outer loop
+      vertex 188.57144 -174.28568 0.00000
+      vertex 188.57144 0.00000 0.00000
+      vertex 188.57144 0.00000 0.00000
+    endloop
+  end facet
+  facet
+    outer loop
+      vertex 188.57144 -174.28568 0.00000
+      vertex 188.57144 0.00000 0.00000
+      vertex 188.57144 -0.00005 174.28568
+    endloop
+  end facet
+  facet
+    outer loop
+      vertex 188.57144 -0.00005 174.28568
+      vertex 188.57144 0.00000 0.00000
+      vertex 188.57144 0.00000 0.00000
+    endloop
+  end facet
+  facet
+    outer loop
+      vertex 188.57144 -0.00005 174.28568
+      vertex 188.57144 0.00000 0.00000
+      vertex 188.57144 174.28568 0.00011
+    endloop
+  end facet
+  facet
+    outer loop
+      vertex 188.57144 174.28568 0.00011
+      vertex 188.57144 0.00000 0.00000
+      vertex 188.57144 0.00000 0.00000
+    endloop
+  end facet
+  facet
+    outer loop
+      vertex 188.57144 174.28568 0.00011
+      vertex 188.57144 0.00000 0.00000
+      vertex 188.57144 0.00016 -174.28568
+    endloop
+  end facet
+endsolid test

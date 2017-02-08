@@ -1,0 +1,85 @@
+V "GNAT Lib v2015"
+M P W=b
+P SS ZX
+
+RN
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK_05
+
+U main%b		main.adb		a94b34c6 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W math%s		math.adb		math.ali
+W parser_svg%s		parser_svg.adb		parser_svg.ali
+W stl%s			stl.adb			stl.ali
+W system.concat_3%s	s-conca3.adb		s-conca3.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+D ada.ads		20150506105328 3ffc8e18 ada%s
+D a-comlin.ads		20150506105330 ea62afbc ada.command_line%s
+D a-except.ads		20150506105328 5250cb69 ada.exceptions%s
+D a-ioexce.ads		20150506105327 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20150506105329 119b8fb3 ada.streams%s
+D a-tags.ads		20150506105332 dc4d0634 ada.tags%s
+D a-textio.ads		20150506105332 386df5d4 ada.text_io%s
+D a-unccon.ads		20150506105331 f9eb8f06 ada.unchecked_conversion%s
+D interfac.ads		20150506105327 6033a23f interfaces%s
+D i-cstrea.ads		20150506105327 e53d8b8e interfaces.c_streams%s
+D liste_generique.ads	20160113040854 97c69cab liste_generique%s
+D main.adb		20160113040858 9e8a22b2 main%b
+D math.ads		20160113040904 08ae1d9a math%s
+D parser_svg.ads	20160113040910 0d8a510d parser_svg%s
+D stl.ads		20160113040922 e0ea008b stl%s
+D system.ads		20150506105329 1d274481 system%s
+D s-conca3.ads		20150506105332 0b705ca5 system.concat_3%s
+D s-crtl.ads		20150506105326 0ebbdb71 system.crtl%s
+D s-exctab.ads		20150506105331 54135002 system.exception_table%s
+D s-ficobl.ads		20150506105333 078245e4 system.file_control_block%s
+D s-parame.ads		20150506105331 7e2a0d7f system.parameters%s
+D s-secsta.ads		20150506105331 86a2856d system.secondary_stack%s
+D s-soflin.ads		20150506105328 aa763b52 system.soft_links%s
+D s-stache.ads		20150506105332 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150506105331 fa0a3617 system.standard_library%s
+D s-stoele.ads		20150506105332 2dc34a04 system.storage_elements%s
+D s-traent.ads		20150506105327 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20150506105330 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20150506105330 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 12|1r6 1r28 4r6 4r23
+X 2 a-comlin.ads
+38K13*Command_Line 139e21 12|1w10 1r32
+41V13*Argument_Count{natural} 12|12s7
+48V13*Argument{string} 12|24s22 28s16
+57V13*Command_Name{string} 12|14s29
+65I9*Exit_Status<integer>
+68i4*Failure{65I9} 12|16r23
+70U14*Set_Exit_Status 12|16s7
+X 7 a-textio.ads
+49K13*Text_IO 471e16 12|4w10 4r27
+52P9*File_Type
+119V13*Standard_Error{52P9} 12|13s16
+259U14*Put_Line 12|13s7
+263U14*Put_Line 12|20s4 21s4 30s4
+X 11 liste_generique.ads
+8R9*Liste 12|8r28[13|7] 9r30[15|9]
+X 12 main.adb
+7U11*Main 7b11 31t4
+8r4 Segments{11|8R9[13|7]} 24m35 26m13 26r13
+9r4 Facettes{11|8R9[15|9]} 26m23 28r29
+X 13 math.ads
+3K9*Math 12|5w6 5r16 13|39e4
+7K12*Liste_Points[11|6] 12|8r15
+X 14 parser_svg.ads
+3K9*Parser_Svg 12|3w6 3r22 14|8e4
+7U14*Chargement_Bezier 12|24s4
+X 15 stl.ads
+4K9*STL 12|2w6 2r15 15|30e4
+9K12*Liste_Facettes[11|6] 12|9r15
+24U14*Creation 12|26s4
+28U14*Sauvegarder 12|28s4
+

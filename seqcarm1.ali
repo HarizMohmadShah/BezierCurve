@@ -1,0 +1,84 @@
+V "GNAT Lib v2015"
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U seqcarm1%b		seqcarm1.adb		293104df OO PK
+W ada%s			ada.ads			ada.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system%s		system.ads		system.ali
+W system.concat_3%s	s-conca3.adb		s-conca3.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+U seqcarm1%s		seqcarm1.ads		70e9659c EE NE OO PK
+
+D ada.ads		20150506105328 3ffc8e18 ada%s
+D a-comlin.ads		20150506105330 ea62afbc ada.command_line%s
+D a-except.ads		20150506105328 5250cb69 ada.exceptions%s
+D a-ioexce.ads		20150506105327 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20150506105329 119b8fb3 ada.streams%s
+D a-tags.ads		20150506105332 dc4d0634 ada.tags%s
+D a-textio.ads		20150506105332 386df5d4 ada.text_io%s
+D a-unccon.ads		20150506105331 f9eb8f06 ada.unchecked_conversion%s
+D interfac.ads		20150506105327 6033a23f interfaces%s
+D i-cstrea.ads		20150506105327 e53d8b8e interfaces.c_streams%s
+D seqcarm1.ads		20160113040914 70e9659c seqcarm1%s
+D seqcarm1.adb		20160113040912 8bd73b2b seqcarm1%b
+D system.ads		20150506105329 1d274481 system%s
+D s-conca3.ads		20150506105332 0b705ca5 system.concat_3%s
+D s-crtl.ads		20150506105326 0ebbdb71 system.crtl%s
+D s-exctab.ads		20150506105331 54135002 system.exception_table%s
+D s-ficobl.ads		20150506105333 078245e4 system.file_control_block%s
+D s-parame.ads		20150506105331 7e2a0d7f system.parameters%s
+D s-soflin.ads		20150506105328 aa763b52 system.soft_links%s
+D s-stache.ads		20150506105332 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150506105331 fa0a3617 system.standard_library%s
+D s-stoele.ads		20150506105332 2dc34a04 system.storage_elements%s
+D s-traent.ads		20150506105327 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20150506105330 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20150506105330 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 12|1r6 1r19 2r5 2r18
+X 2 a-comlin.ads
+38K13*Command_Line 139e21 12|1w23 2r22
+X 7 a-textio.ads
+49K13*Text_IO 471e16 12|1w10 2r9
+52P9*File_Type 12|6r10
+53n23*In_File{53E9} 12|14r17
+92U14*Open 12|14s7
+98U14*Close 12|61s7
+113U14*Set_Input 12|15s7 62s7
+117V13*Standard_Input{52P9} 12|62s17
+223U14*Get_Immediate 12|39s7
+263U14*Put_Line 12|17s28 19s26 21s25
+292X4*Status_Error 12|17r12
+294X4*Name_Error 12|19r12
+295X4*Use_Error 12|21r12
+297X4*End_Error 12|42r12
+X 11 seqcarm1.ads
+3K9*SeqCarM1 25l5 25e13 12|4b14 66l5 66t13
+5U14*Open_File 5>24 12|12b14 23t8
+5a24 Nom_Fichier{string} 12|12b24 14r26 17r57 19r55 21r54
+7U14*DemCar 12|25b14 32t8
+14V13*FinCar{boolean} 12|54b13 57t8
+16U14*AvCar 12|31s7 34b14 44t8
+19V13*CarCour{character} 12|46b13 52t8
+22U14*StopCar 12|59b14 64t8
+X 12 seqcarm1.adb
+6p4 Svg{7|52P9} 14m12 14r12 15r17 61m13 61r13
+7e4 Car{character} 39m21 51r14
+8b4 Est_Fin{boolean} 27r14 30m7 36r10 40m7 43m10 48r10 56r14 63m7
+10X4 Anomalie 28r16 37r16 49r16
+

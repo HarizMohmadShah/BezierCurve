@@ -1,0 +1,125 @@
+V "GNAT Lib v2015"
+P SS ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U math%b		math.adb		f6f7408a NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U math%s		math.ads		9f688131 EE OO PK
+Z ada%s			ada.ads			ada.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+Z ada.unchecked_deallocation%s
+W liste_generique%s	liste_generique.adb	liste_generique.ali  AD
+
+D ada.ads		20150506105328 3ffc8e18 ada%s
+D a-except.ads		20150506105328 5250cb69 ada.exceptions%s
+D a-flteio.ads		20150506105329 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20150506105327 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20150506105329 119b8fb3 ada.streams%s
+D a-tags.ads		20150506105332 dc4d0634 ada.tags%s
+D a-textio.ads		20150506105332 386df5d4 ada.text_io%s
+D a-tiflio.ads		20150506105327 56fbda09 ada.text_io.float_io%s
+D a-unccon.ads		20150506105331 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20150506105330 f15a5ed1 ada.unchecked_deallocation%s
+D interfac.ads		20150506105327 6033a23f interfaces%s
+D i-cstrea.ads		20150506105327 e53d8b8e interfaces.c_streams%s
+D liste_generique.ads	20160113040854 97c69cab liste_generique%s
+D liste_generique.adb	20160113040836 c304a447 liste_generique%b
+D math.ads		20160113040904 08ae1d9a math%s
+D math.adb		20160113040902 27beef64 math%b
+D system.ads		20150506105329 1d274481 system%s
+D s-crtl.ads		20150506105326 0ebbdb71 system.crtl%s
+D s-exctab.ads		20150506105331 54135002 system.exception_table%s
+D s-ficobl.ads		20150506105333 078245e4 system.file_control_block%s
+D s-parame.ads		20150506105331 7e2a0d7f system.parameters%s
+D s-secsta.ads		20150506105331 86a2856d system.secondary_stack%s
+D s-soflin.ads		20150506105328 aa763b52 system.soft_links%s
+D s-stache.ads		20150506105332 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150506105331 fa0a3617 system.standard_library%s
+D s-stoele.ads		20150506105332 2dc34a04 system.storage_elements%s
+D s-traent.ads		20150506105327 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20150506105330 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20150506105330 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 16|1r6 1r19 2r5 2r18
+X 3 a-flteio.ads
+20K13*Float_Text_IO[8|46] 16|1w23 2r22
+X 7 a-textio.ads
+49K13*Text_IO 471e16 16|1w10 2r9
+73I12*Field{integer}
+242U14*Put 16|45s7 47s7 70s7 72s7
+X 8 a-tiflio.ads
+68U14*Put 16|44s7[3|20] 46s7[3|20] 69s7[3|20] 71s7[3|20]
+70i7 Fore{7|73I12} 16|44r27[3|20] 46r27[3|20] 69r31[3|20] 71r31[3|20]
+72i7 Exp{7|73I12} 16|44r17[3|20] 46r17[3|20] 69r21[3|20] 71r21[3|20]
+X 13 liste_generique.ads
+6k9*Liste_Generique 53e4 15|1w6 7r32
+8R9*Liste 15|12r34[7] 15r34[7] 30r58[7] 31r59[7] 16|17r34[15|7] 30r34[15|7]
+. 75r58[15|7] 85r59[15|7]
+14U14*Insertion_Tete 16|81s10[15|7]
+17U14*Insertion_Queue 16|24s10[15|7] 37s10[15|7] 91s10[15|7]
+22u14*Parcourir 15|19r50[7] 23r38[7] 27r44[7]
+X 15 math.ads
+3K9*Math 39e4 16|3b15 95t4
+5A9*Vecteur(float)<integer> 6r23 37r22 37r36 37r52 16|7r22 7r36 7r52 8r11
+6A12*Point2D{5A9}<integer> 7r48 11r38 14r33 18r43 22r37 26r30 30r36 31r37
+. 16|5r12 16r38 18r11 29r33 31r11 42r43 50r37 61r30 75r36 76r13 85r37 86r13
+7K12*Liste_Points[13|6] 8r8 19r37 23r25 27r31
+11U14*Bezier 11>21 11>25 11>29 11>33 11>48 12<21 16|16b14 27t7
+11a21 P1{6A12} 16|16b21 22r42 23r42
+11a25 C1{6A12} 16|16b25 22r72 23r72
+11a29 C2{6A12} 16|16b29 22r94 23r94
+11a33 P2{6A12} 16|16b33 22r108 23r108
+11i48 Nb_Points{positive} 16|16b48 19r30 21r19 25r29
+12r21 Points{13|8R9[7]} 16|17b21 24m26
+14U14*Bezier 14>21 14>25 14>28 14>43 15<21 16|29b14 40t7
+14a21 P1{6A12} 16|29b21 35r34 36r34
+14a25 C{6A12} 16|29b25 35r56 36r56
+14a28 P2{6A12} 16|29b28 35r67 36r67
+14i43 Nb_Points{positive} 16|29b43 32r30 34r19 38r29
+15r21 Points{13|8R9[7]} 16|30b21 37m26
+18U14*Affichage_Segment 18=32 19r60 16|42b14 48l8 48t25
+18a32 P{6A12} 16|42b32 44r11 46r11
+19U14*Affiche_Segment[13|22]
+22U14*Cherche_Min 22=26 23r48 16|50b14 59l8 59t19
+22a26 P{6A12} 16|50b26 52r21 53r22 56r21 57r22
+23U14*Min[13|22]
+26U14*Move 26=19 27r54 16|61b14 65l8 65t12
+26a19 P{6A12} 16|61b19 63m10 63r18 64m10 64r18
+27U14*Translate[13|22]
+30U14*Raccorder_Tete 30>29 30<45 16|75b14 83l8 83t22
+30a29 P{6A12} 16|75b29 78r17 80r10
+30r45 Points{13|8R9[7]} 16|75b45 81m25
+31U14*Raccorder_Queue 31>30 31<46 16|85b14 93l8 93t23
+31a30 P{6A12} 16|85b30 88r17 90r10
+31r46 Points{13|8R9[7]} 16|85b46 91m26
+34U14*Affiche_min 16|67b14 73l8 73t19
+37V14*"+"{5A9} 37>18 37>32 16|7b14 14t7
+37a18 A{5A9} 16|7b18 8r19 10r16 11r18
+37a32 B{5A9} 16|7b32 11r25
+X 16 math.adb
+5a4 P_min{15|6A12} 52r10 53m10 56r10 57m10 63r25 64r25 69r11 71r11
+8a7 R{15|5A9} 11m10 13r14
+10i11 I{integer} 11r12 11r20 11r27
+18a7 P{15|6A12} 22m10 23m10 24r34
+19f7 t{float} 22r23 22r31 22r39 22r59 22r67 22r70 22r87 22r90 22r92 22r102
+. 22r104 22r106 23r23 23r31 23r39 23r59 23r67 23r70 23r87 23r90 23r92 23r102
+. 23r104 23r106 25m10 25r15
+21i11 I{integer}
+31a7 P{15|6A12} 35m10 36m10 37r34
+32f7 t{float} 35r23 35r31 35r51 35r54 35r63 35r65 36r23 36r31 36r51 36r54
+. 36r63 36r65 38m10 38r15
+34i11 I{integer}
+76a7 Tmp{15|6A12} 78m7 79m7 81r32
+86a7 Tmp{15|6A12} 88m7 89m7 91r33
+

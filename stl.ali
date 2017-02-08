@@ -1,0 +1,148 @@
+V "GNAT Lib v2015"
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U stl%b			stl.adb			75b70058 OO PK IU
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system.concat_3%s	s-conca3.adb		s-conca3.ali
+
+U stl%s			stl.ads			7f8281ba EE OO PK IU
+Z ada%s			ada.ads			ada.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+Z ada.unchecked_deallocation%s
+W liste_generique%s	liste_generique.adb	liste_generique.ali  AD
+W math%s		math.adb		math.ali
+
+D ada.ads		20150506105328 3ffc8e18 ada%s
+D a-except.ads		20150506105328 5250cb69 ada.exceptions%s
+D a-flteio.ads		20150506105329 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20150506105327 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20150506105328 bb51c45a ada.numerics%s
+D a-nuelfu.ads		20150506105327 03e83d1c ada.numerics.elementary_functions%s
+D a-ngelfu.ads		20150506105331 b8fdcb46 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20150506105329 119b8fb3 ada.streams%s
+D a-tags.ads		20150506105332 dc4d0634 ada.tags%s
+D a-textio.ads		20150506105332 386df5d4 ada.text_io%s
+D a-tiflio.ads		20150506105327 56fbda09 ada.text_io.float_io%s
+D a-unccon.ads		20150506105331 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20150506105330 f15a5ed1 ada.unchecked_deallocation%s
+D interfac.ads		20150506105327 6033a23f interfaces%s
+D i-cstrea.ads		20150506105327 e53d8b8e interfaces.c_streams%s
+D liste_generique.ads	20160113040854 97c69cab liste_generique%s
+D liste_generique.adb	20160113040836 c304a447 liste_generique%b
+D math.ads		20160113040904 08ae1d9a math%s
+D stl.ads		20160113040922 e0ea008b stl%s
+D stl.adb		20160113040918 f4034be1 stl%b
+D system.ads		20150506105329 1d274481 system%s
+D s-conca3.ads		20150506105332 0b705ca5 system.concat_3%s
+D s-crtl.ads		20150506105326 0ebbdb71 system.crtl%s
+D s-exctab.ads		20150506105331 54135002 system.exception_table%s
+D s-ficobl.ads		20150506105333 078245e4 system.file_control_block%s
+D s-parame.ads		20150506105331 7e2a0d7f system.parameters%s
+D s-soflin.ads		20150506105328 aa763b52 system.soft_links%s
+D s-stache.ads		20150506105332 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150506105331 fa0a3617 system.standard_library%s
+D s-stoele.ads		20150506105332 2dc34a04 system.storage_elements%s
+D s-traent.ads		20150506105327 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20150506105330 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20150506105330 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 20|1r6 2r5 3r6 4r5 5r6 6r5 7r6 8r5 13r27
+X 3 a-flteio.ads
+20K13*Float_Text_IO[11|46] 20|3w10 4r9
+X 5 a-numeri.ads
+16K13*Numerics 32e17 20|5w10 6r9 7r10 8r9 13r31
+21N4*Pi 20|13r40
+X 6 a-nuelfu.ads
+18K22*Elementary_Functions[7|39] 20|7w19 8r18
+X 7 a-ngelfu.ads
+81V13*Sin{float} 20|38s49[6|18] 39s49[6|18] 48s49[6|18] 49s49[6|18]
+89V13*Cos{float} 20|38s36[6|18] 39s32[6|18] 48s36[6|18] 49s32[6|18]
+X 10 a-textio.ads
+49K13*Text_IO 471e16 20|1w10 2r9
+52P9*File_Type 20|15r10 69r34 74r33
+53n32*Out_File{53E9} 20|125r19
+73I12*Field{integer}
+86U14*Create 20|125s7
+98U14*Close 20|129s7
+241U14*Put 20|83s7 85s7 87s7 90s7 92s7 94s7 97s7 99s7 101s7
+242U14*Put 20|62s7 64s7 66s7 111s7 114s7 124s7
+259U14*Put_Line 20|71s7 76s7 81s7 82s7 89s7 96s7 103s7 104s7 105s7
+263U14*Put_Line 20|113s7 116s7 130s7
+X 11 a-tiflio.ads
+61U14*Put 20|84s7[3|20] 86s7[3|20] 88s7[3|20] 91s7[3|20] 93s7[3|20] 95s7[3|20]
+. 98s7[3|20] 100s7[3|20] 102s7[3|20]
+64i7 Fore{10|73I12} 20|84r35[3|20] 86r35[3|20] 88r35[3|20] 91r35[3|20] 93r35[3|20]
+. 95r35[3|20] 98r35[3|20] 100r35[3|20] 102r35[3|20]
+66i7 Exp{10|73I12} 20|84r25[3|20] 86r25[3|20] 88r25[3|20] 91r25[3|20] 93r25[3|20]
+. 95r25[3|20] 98r25[3|20] 100r25[3|20] 102r25[3|20]
+68U14*Put 20|61s7[3|20] 63s7[3|20] 65s7[3|20]
+70i7 Fore{10|73I12} 20|61r30[3|20] 63r30[3|20] 65r30[3|20]
+72i7 Exp{10|73I12} 20|61r20[3|20] 63r20[3|20] 65r20[3|20]
+X 16 liste_generique.ads
+6k9*Liste_Generique 53e4 19|1w6 9r34
+8R9*Liste 19|24r54[18|7] 25r56[9] 29r52[9] 20|12r25[19|9] 108r54[18|7] 109r56[19|9]
+. 121r52[19|9]
+17U14*Insertion_Queue 20|41s10[19|9] 51s10[19|9]
+22u14*Parcourir 19|17r52[9] 21r48[9]
+28u14*Parcourir_Par_Couples 19|13r55[18|7]
+31U14*Fusion 20|115s7[19|9]
+X 18 math.ads
+3K9*Math 39e4 19|2w6 2r16
+5A9*Vecteur(float)<integer> 19|6r20
+6A12*Point2D{5A9}<integer> 19|12r31 20|17r32
+7K12*Liste_Points[16|6] 19|13r42 24r41 20|108r41
+X 19 stl.ads
+4K9*STL 30e4 20|10b14 133t4
+5R9*Facette 7e14 9r50 16r43 20r39 20|19r11 20r20 59r43 79r39
+6a7*P1{18|5A9} 20|24m9 25m9 26m9 33m21 33r29 43m21 43r29 53m12 61r13 63r13
+. 65r13 84r18 86r18 88r18
+6a11*P2{18|5A9} 20|28m9 29m9 30m9 35m21 35r29 45m21 54m12 54r29 91r18 93r18
+. 95r18
+6a15*P3{18|5A9} 20|37m21 38m21 39m21 45r38 47m21 48m21 49m21 53r29 98r18
+. 100r18 102r18
+9K12*Liste_Facettes[16|6] 10r8 17r37 21r33 25r41 29r37 20|12r10 109r41 121r37
+12U14*to_3d 12>20 12>23 13r77 20|17b14 57l8 57t13
+12a20 P1{18|6A12} 20|17b20 24r18 25r18 47r30 48r30 49r43
+12a23 P2{18|6A12} 20|17b24 28r18 29r18 37r30 38r30 39r43
+13U14*Segments_to_Facettes[16|28] 20|112s7
+16U14*Affichage_Facette 16=32 17r62 20|59b14 67l8 67t25
+16r32 P{5R9} 20|59b32 61r11 63r11 65r11
+17U14*Affiche_Facette[16|22]
+20U14*Write_Facette 20=28 21r58 20|79b14 106l8 106t21
+20r28 F{5R9} 20|79b28 84r16 86r16 88r16 91r16 93r16 95r16 98r16 100r16 102r16
+21U14*Stl_Facette[16|22] 20|127s7
+24U14*Creation 24=23 25<23 20|108b14 117t7
+24r23 Segments{16|8R9[18|7]} 20|108b23 112r28
+25r23 Facettes{16|8R9[9]} 20|109b23 115m14
+28U14*Sauvegarder 28>26 29>26 20|120b14 131t7
+28a26 Nom_Fichier{string} 20|120b26 124r25 125r29
+29r26 Facettes{16|8R9[9]} 20|121b26 127r19
+X 20 stl.adb
+12r4 Tmp{16|8R9[19|9]} 41m26 41r26 51m26 51r26 115m24 115r24
+13f4 Pi{float} 55r28
+14i4 M{positive} 32r19 55r38
+15p4 Stl{10|52P9} 81r16 82r16 83r11 84r11 85r11 86r11 87r11 88r11 89r16 90r11
+. 91r11 92r11 93r11 94r11 95r11 96r16 97r11 98r11 99r11 100r11 101r11 102r11
+. 103r16 104r16 105r16 125m14 125r14 126m16 126r16 128m15 128r15 129m13 129r13
+18f7 Z{float} 26r18 30r18 38r47 39r30 48r47 49r30
+19r7 P{19|5R9} 24m7 25m7 26m7 28m7 29m7 30m7 33r27 35r27 43r27 53m10 54m10
+20r7 P_Facettes{19|5R9} 33m10 35m10 37m10 38m10 39m10 41r31 43m10 45m10 45r27
+. 47m10 48m10 49m10 51r31 53r18 54r18
+21f7 Rad{float} 38r40 38r53 39r36 39r53 48r40 48r53 49r36 49r53 55m10 55r17
+32i11 I{integer}
+69U14 Stl_Tete 69b14 69=23 72l8 72t16 126s7
+69p23 F{10|52P9} 71r16
+74U14 Stl_Fin 74b14 74=22 77l8 77t15 128s7
+74p22 F{10|52P9} 76r16
+
